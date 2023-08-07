@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Dependencies
+/.pnp
+.pnp.js
+
+# Build output
+/dist
+/out
+/build
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.lock
+*.bak
+*.tmp
+*.vssettings
+.vscode/
+.vscode-test/
