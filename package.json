@@ -4,7 +4,9 @@
   "description": "This repo is just for quick refresh my information of nodejs and express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +18,11 @@
     "express-session": "^1.17.3",
     "method-override": "^3.0.0",
     "moment": "^2.29.4",
-    "mongoose": "^7.4.2"
+    "mongoose": "^7.4.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1"
   }
 }
