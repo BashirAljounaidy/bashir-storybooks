@@ -15,5 +15,14 @@ router.get(
     res.redirect("/dashboard")
   }
 )
+// @desc  logout 
+// @route GET /auth/logout
+
+router.get('/logout', (req, res, next) => {
+  req.logout((error) => {
+      if (error) {return next(error)}
+      res.redirect('/')
+  })
+})
 
 module.exports = router
