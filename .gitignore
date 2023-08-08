@@ -6,7 +6,7 @@ yarn-error.log
 # Dependencies
 /.pnp
 .pnp.js
-config/config.env
+
 # Build output
 /dist
 /out
@@ -16,6 +16,7 @@ config/config.env
 .env
 .env.local
 .env.*.local
+config/config.env
 
 # IDE and editor files
 .vscode/
