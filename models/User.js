@@ -1,4 +1,5 @@
-const mongoose = require("mongoose")
+const mongoose = require('mongoose')
+
 const UserSchema = new mongoose.Schema({
   googleId: {
     type: String,
@@ -8,13 +9,13 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  firstname: {
+  firstName: {
     type: String,
-    require: true,
+    required: true,
   },
-  lastname: {
+  lastName: {
     type: String,
-    require: true,
+    required: true,
   },
   image: {
     type: String,
@@ -25,4 +26,4 @@ const UserSchema = new mongoose.Schema({
   },
 })
 
-module.exports = mongoose.model("User", UserSchema)
+module.exports = mongoose.model('User', UserSchema)
