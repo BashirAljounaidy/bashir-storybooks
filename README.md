@@ -3,7 +3,7 @@
 📚 A platform for creating and sharing stories.
 
 ## Walkthough
-![Alt Text]("https://github.com/BashirAljounaidy/bashir-storybooks/blob/main/BookStroy.gif")
+![Alt Text]("https://raw.githubusercontent.com/BashirAljounaidy/bashir-storybooks/main/BookStroy.gif")
 
 ## Table of Contents
 
