@@ -91,11 +91,6 @@ Welcome to Storybooks, a platform that lets you create, read, and share stories.
 4. Push to the branch: `git push origin feature/your-feature`
 5. Open a pull request.
 
-## License
-
-📜 Licensed under [MIT License](LICENSE).
-
-
 ## Google OAuth2 Integration
 
 Securely authenticate users with Google OAuth2:
@@ -134,10 +129,3 @@ Securely authenticate users with Google OAuth2:
    - Enhance your relevant views (e.g., login page) by adding a "Login with Google" button that directs users to the `/auth/google` route to start the authentication flow.
 
 By integrating Google OAuth2 into your Storybooks project, you provide users with a convenient and secure method of logging in, further enhancing their experience on the platform.
-
-
-## Video Introduction
-
-🎥 Watch the video introduction to get a walkthrough of the project's features and how it works. [Video Link](https://your-video-link).
-
----
